@@ -24,6 +24,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme.SmartTutor" >
+        <activity android:name="com.example.smarttutor.Questions.DisplaySingleQuestion" />
+        <activity android:name="com.example.smarttutor.Questions.DisplayQuestions" />
         <activity android:name="com.example.smarttutor.Questions.AddQuestions" />
         <activity android:name="com.example.smarttutor.Home" />
         <activity android:name="com.example.smarttutor.Authentification.Register" />
@@ -35,6 +37,7 @@
         <activity android:name="com.example.smarttutor.Subjects.Mathematics" />
         <activity android:name="com.example.smarttutor.Subjects.Philosophy" />
         <activity android:name="com.example.smarttutor.Subjects.Physics" />
+        <activity android:name="com.example.smarttutor.Authentification.Make_Profile" />
         <activity android:name="com.example.smarttutor.Authentification.Login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

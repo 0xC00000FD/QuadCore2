@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartTutor">
-        <activity android:name=".Questions.AddQuestions"></activity>
+        <activity android:name=".Questions.DisplaySingleQuestion"></activity>
+        <activity android:name=".Questions.DisplayQuestions" />
+        <activity android:name=".Questions.AddQuestions" />
         <activity android:name=".Home" />
         <activity android:name=".Authentification.Register" />
         <activity android:name=".Subjects.Biology" />
@@ -20,6 +22,7 @@
         <activity android:name=".Subjects.Mathematics" />
         <activity android:name=".Subjects.Philosophy" />
         <activity android:name=".Subjects.Physics" />
+        <activity android:name=".Authentification.Make_Profile" />
         <activity android:name=".Authentification.Login">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

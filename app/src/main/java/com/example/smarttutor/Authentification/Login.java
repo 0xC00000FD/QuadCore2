@@ -5,8 +5,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.provider.ContactsContract;
-import android.renderscript.Sampler;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -15,7 +13,6 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.smarttutor.Home;
-import com.example.smarttutor.Make_Profile;
 import com.example.smarttutor.R;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -28,12 +25,10 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-import java.util.Iterator;
-
 public class Login extends AppCompatActivity {
 
     private Button login;
-    private TextView register;
+    private TextView register, resetPassword, withOutAccount;
     private EditText Email, Password;
 
     private FirebaseAuth auth;
@@ -42,16 +37,19 @@ public class Login extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_login);
 
         /**
-         * All references
+         * References between UI and code
          */
 
         login    = (Button) findViewById(R.id.btnSignIn);
         register = (TextView) findViewById(R.id.tvLoginRegister);
         Email    = (EditText) findViewById(R.id.etLoginEmail);
         Password = (EditText) findViewById(R.id.etLoginPassword);
+        resetPassword = (TextView) findViewById(R.id.tvForgotPassword);
+        withOutAccount= (TextView) findViewById(R.id.tvGoWithoutAccount);
 
 
         /**
@@ -62,10 +60,8 @@ public class Login extends AppCompatActivity {
         database = FirebaseDatabase.getInstance().getReference();
 
         /**
-         * If the user does not have an account, he will go to the register screen
+         * If the user does not have an account, he will click the button and go to the register screen
          */
-
-
 
         register.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -85,6 +81,23 @@ public class Login extends AppCompatActivity {
                 String email    = Email.getText().toString();
                 String password = Password.getText().toString();
                 signIn(email, password);
+            }
+        });
+
+
+        resetPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String email    = Email.getText().toString();
+                sendResetPasswordEmail(email);
+            }
+        });
+
+        withOutAccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Login.this, Home.class);
+                Login.this.startActivity(intent);
             }
         });
     }
@@ -111,18 +124,15 @@ public class Login extends AppCompatActivity {
                     }
                     */
 
-                    database.child("users").
+                    database.child("users").child(user.getUid()).
                             addValueEventListener(new ValueEventListener() {
                                 @Override
                                 public void onDataChange(@NonNull DataSnapshot snapshot) {
-                                    Iterator<DataSnapshot> items = snapshot.getChildren().iterator();
-                                    while(items.hasNext()){
-                                        DataSnapshot item = items.next();
-                                        String email;
-                                        boolean profileCompletion;
-
-                                        email = item.child("email").getValue().toString();
-                                        profileCompletion = item.child("profileCompletition").getValue().equals(true);
+                                    Boolean data = snapshot.child("profileCompletition").getValue().equals(false);
+                                    if(data == true) {
+                                        Intent intent = new Intent(Login.this, Make_Profile.class);
+                                        Login.this.startActivity(intent);
+                                        return;
                                     }
                                 }
 
@@ -132,12 +142,26 @@ public class Login extends AppCompatActivity {
                                 }
                             });
 
-
                     Intent intent = new Intent(Login.this, Home.class);
                     Login.this.startActivity(intent);
                 } else {
                     Toast.makeText(Login.this, "Authentication failed.",
                             Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+    }
+
+    /**
+     *
+     */
+
+    private void sendResetPasswordEmail(String email) {
+        auth.sendPasswordResetEmail(email).addOnCompleteListener(new OnCompleteListener<Void>() {
+            @Override
+            public void onComplete(@NonNull Task<Void> task) {
+                if(task.isSuccessful()) {
+                    Log.d("EZ", "Email sent");
                 }
             }
         });

@@ -297,8 +297,8 @@
                         <option name="values">
                           <map>
                             <entry key="assetSourceType" value="FILE" />
-                            <entry key="outputName" value="ic_hourglass_empty" />
-                            <entry key="sourceFile" value="D:\img\hourglass_empty.svg" />
+                            <entry key="outputName" value="ic_person_white_18dp" />
+                            <entry key="sourceFile" value="C:\Users\pc\person-white-18dp.svg" />
                           </map>
                         </option>
                       </PersistentState>

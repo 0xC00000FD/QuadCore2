@@ -8,6 +8,10 @@
         "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_hourglass_empty_black.xml"
     },
     {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_white_18dp.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_search_white_18dp.xml"
+    },
+    {
         "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
         "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
@@ -84,6 +88,10 @@
         "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_physics.xml"
     },
     {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_display_single_question.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_display_single_question.xml"
+    },
+    {
         "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_nature_people_black.xml.flat",
         "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_nature_people_black.xml"
     },
@@ -108,6 +116,10 @@
         "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_search_black.xml"
     },
     {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_white_18dp.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_person_white_18dp.xml"
+    },
+    {
         "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header_philosophy.xml.flat",
         "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\header_philosophy.xml"
     },
@@ -116,12 +128,20 @@
         "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_school_white_18dp.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_school_white_18dp.xml"
+    },
+    {
         "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_economy.xml.flat",
         "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_economy.xml"
     },
     {
         "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_biotech_black.xml.flat",
         "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_biotech_black.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_display_single_article.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_display_single_article.xml"
     },
     {
         "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chemistry.xml.flat",
@@ -176,12 +196,20 @@
         "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header_articles.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\header_articles.xml"
+    },
+    {
         "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_black.xml.flat",
         "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_person_black.xml"
     },
     {
         "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
         "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_display_questions.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_display_questions.xml"
     },
     {
         "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",

@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.util.Pair;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -98,9 +99,10 @@ public class Register extends AppCompatActivity {
     }
 
     private void writeNewUser(String email, String uid) {
-        Map<String, Boolean> mapa = new HashMap<>();
-        mapa.put("0", true);
-        User user = new User(email, false, false, " ", " ", " ", mapa, mapa, mapa, mapa, mapa);
+        Map<String, Pair<String, Boolean>> mapa = new HashMap<>();
+        Pair< String , Boolean > pair = new Pair<String, Boolean>("Nothing", false);
+        mapa.put("0", pair);
+        User user = new User(email, false, false, " ", " ", " ", mapa, mapa, mapa);
         database.child("users").child(uid).setValue(user);
     }
 

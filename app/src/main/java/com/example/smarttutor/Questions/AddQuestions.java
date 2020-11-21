@@ -3,6 +3,7 @@ package com.example.smarttutor.Questions;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Pair;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
@@ -56,6 +57,8 @@ public class AddQuestions extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String name, statement, op1, op2, op3, op4;
+                String value = "Mathematics";
+                Boolean open = false;
                 Boolean ans1, ans2, ans3, ans4;
 
                 name = etProblemName.getText().toString().trim();
@@ -71,21 +74,22 @@ public class AddQuestions extends AppCompatActivity {
                 ans3 = (cbOption3.isChecked()) ? true : false;
                 ans4 = (cbOption4.isChecked()) ? true : false;
 
-                Question question = new Question(name, statement, op1, ans1, op2, ans2, op3, ans3, op4, ans4);
-                createQuestion(question);
+                Question question = new Question(name, statement, op1, ans1, op2, ans2, op3, ans3, op4, ans4, value, open);
+                createQuestion(question, value);
             }
         });
 
 
     }
 
-    private void createQuestion(Question question) {
+    private void createQuestion(Question question, String value) {
         String id = getValue();
         database.child("questions").child(id).setValue(question);
 
         FirebaseUser user = auth.getCurrentUser();
         Map< String, Object > updates = new HashMap<>();
-        updates.put(id, false);
+        Pair<String, Boolean> pair = new Pair<String, Boolean>(value, false);
+        updates.put(id, pair);
         database.child("users").child(user.getUid()).child("proposedProblems").updateChildren(updates);
     }
     private String getValue() {

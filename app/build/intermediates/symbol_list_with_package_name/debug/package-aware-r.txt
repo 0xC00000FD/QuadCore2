@@ -1580,6 +1580,7 @@ drawable design_password_eye
 drawable design_snackbar_background
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
+drawable header_articles
 drawable header_biology
 drawable header_chemistry
 drawable header_compsci
@@ -1610,10 +1611,13 @@ drawable ic_mtrl_chip_close_circle
 drawable ic_nature_people
 drawable ic_nature_people_black
 drawable ic_person_black
+drawable ic_person_white_18dp
 drawable ic_school_black
+drawable ic_school_white_18dp
 drawable ic_science_black
 drawable ic_science_white_18dp
 drawable ic_search_black
+drawable ic_search_white_18dp
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
 drawable material_ic_edit_black_24dp
@@ -1653,6 +1657,7 @@ id CTRL
 id FUNCTION
 id META
 id NO_DEBUG
+id Paragraph
 id SHIFT
 id SHOW_ALL
 id SHOW_PATH
@@ -1660,6 +1665,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id Title
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -1735,6 +1741,7 @@ id beginning
 id blocking
 id bottom
 id bounce
+id btnCheck
 id btnRegisterRegister
 id btnSignIn
 id btnSubmit
@@ -1751,6 +1758,10 @@ id button9
 id buttonPanel
 id cache_measures
 id cancel_button
+id cbAns1
+id cbAns2
+id cbAns3
+id cbAns4
 id cbOption1
 id cbOption2
 id cbOption3
@@ -1872,8 +1883,10 @@ id imageView16
 id imageView18
 id imageView2
 id imageView20
+id imageView3
 id imageView4
 id imageView6
+id imageView7
 id imageView9
 id info
 id invisible
@@ -1885,6 +1898,7 @@ id labeled
 id largeLabel
 id layout
 id left
+id liQuestions
 id light
 id line1
 id line3
@@ -1936,6 +1950,7 @@ id off
 id on
 id outline
 id packed
+id pageArticles
 id parallax
 id parent
 id parentPanel
@@ -1973,6 +1988,7 @@ id scroll
 id scrollIndicatorDown
 id scrollIndicatorUp
 id scrollView
+id scrollView2
 id scrollable
 id search_badge
 id search_bar
@@ -2017,7 +2033,6 @@ id stop
 id stretch
 id submenuarrow
 id submit_area
-id switch1
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2068,6 +2083,8 @@ id triangle
 id tvForgotPassword
 id tvGoWithoutAccount
 id tvLoginRegister
+id tvStatement
+id tvTitle
 id unchecked
 id uniform
 id unlabeled
@@ -2146,6 +2163,9 @@ layout activity_add_questions
 layout activity_biology
 layout activity_chemistry
 layout activity_compsci
+layout activity_display_questions
+layout activity_display_single_article
+layout activity_display_single_question
 layout activity_economy
 layout activity_history
 layout activity_home

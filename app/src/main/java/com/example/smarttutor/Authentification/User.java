@@ -1,5 +1,7 @@
 package com.example.smarttutor.Authentification;
 
+import android.util.Pair;
+
 import com.google.firebase.database.IgnoreExtraProperties;
 
 import java.util.HashMap;
@@ -13,29 +15,23 @@ public class User {
     public String schoolYear;
     public String   telephoneNumber;
     public String   school;
-    public Map<String, Boolean> problemsSolved_Mathematics   = new HashMap<>();
-    public Map<String, Boolean> problemsAttepted_Mathematics = new HashMap<>();
-    public Map<String, Boolean> problemsSolved_Informatics   = new HashMap<>();
-    public Map<String, Boolean> problemsAttepted_Informatics = new HashMap<>();
-    public Map<String, Boolean> proposedProblems = new HashMap<>();
+    public Map<String, Pair< String, Boolean> > problemsSolved    = new HashMap<>();
+    public Map<String, Pair< String, Boolean> > problemsAttempted = new HashMap<>();
+    public Map<String, Pair< String, Boolean> > proposedProblems  = new HashMap<>();
 
     public User() {
 
     }
 
-
-
-    public User(String email, boolean profileCompletition, boolean type, String schoolYear, String telephoneNumber, String school, Map<String, Boolean> problemsSolved_Mathematics, Map<String, Boolean> problemsAttepted_Mathematics, Map<String, Boolean> problemsSolved_Informatics, Map<String, Boolean> problemsAttepted_Informatics, Map<String, Boolean>proposedProblems) {
+    public User(String email, boolean profileCompletition, boolean type, String schoolYear, String telephoneNumber, String school, Map<String, Pair<String, Boolean>> problemsSolved, Map<String, Pair<String, Boolean>> problemsAttempted, Map<String, Pair<String, Boolean>> proposedProblems) {
         this.email = email;
-        this.type = type;
         this.profileCompletition = profileCompletition;
-        this.telephoneNumber = telephoneNumber;
+        this.type = type;
         this.schoolYear = schoolYear;
+        this.telephoneNumber = telephoneNumber;
         this.school = school;
-        this.problemsSolved_Mathematics = problemsSolved_Mathematics;
-        this.problemsAttepted_Mathematics = problemsAttepted_Mathematics;
-        this.problemsSolved_Informatics = problemsSolved_Informatics;
-        this.problemsAttepted_Informatics = problemsAttepted_Informatics;
+        this.problemsSolved = problemsSolved;
+        this.problemsAttempted = problemsAttempted;
         this.proposedProblems = proposedProblems;
     }
 
@@ -87,43 +83,27 @@ public class User {
         this.school = school;
     }
 
-    public Map<String, Boolean> getProblemsSolved_Mathematics() {
-        return problemsSolved_Mathematics;
+    public Map<String, Pair<String, Boolean>> getProblemsSolved() {
+        return problemsSolved;
     }
 
-    public void setProblemsSolved_Mathematics(Map<String, Boolean> problemsSolved_Mathematics) {
-        this.problemsSolved_Mathematics = problemsSolved_Mathematics;
+    public void setProblemsSolved(Map<String, Pair<String, Boolean>> problemsSolved) {
+        this.problemsSolved = problemsSolved;
     }
 
-    public Map<String, Boolean> getProblemsAttepted_Mathematics() {
-        return problemsAttepted_Mathematics;
+    public Map<String, Pair<String, Boolean>> getProblemsAttempted() {
+        return problemsAttempted;
     }
 
-    public void setProblemsAttepted_Mathematics(Map<String, Boolean> problemsAttepted_Mathematics) {
-        this.problemsAttepted_Mathematics = problemsAttepted_Mathematics;
+    public void setProblemsAttempted(Map<String, Pair<String, Boolean>> problemsAttempted) {
+        this.problemsAttempted = problemsAttempted;
     }
 
-    public Map<String, Boolean> getProblemsSolved_Informatics() {
-        return problemsSolved_Informatics;
-    }
-
-    public void setProblemsSolved_Informatics(Map<String, Boolean> problemsSolved_Informatics) {
-        this.problemsSolved_Informatics = problemsSolved_Informatics;
-    }
-
-    public Map<String, Boolean> getProblemsAttepted_Informatics() {
-        return problemsAttepted_Informatics;
-    }
-
-    public void setProblemsAttepted_Informatics(Map<String, Boolean> problemsAttepted_Informatics) {
-        this.problemsAttepted_Informatics = problemsAttepted_Informatics;
-    }
-
-    public Map<String, Boolean> getProposedProblems() {
+    public Map<String, Pair<String, Boolean>> getProposedProblems() {
         return proposedProblems;
     }
 
-    public void setProposedProblems(Map<String, Boolean> proposedProblems) {
+    public void setProposedProblems(Map<String, Pair<String, Boolean>> proposedProblems) {
         this.proposedProblems = proposedProblems;
     }
 }
