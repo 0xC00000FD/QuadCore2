@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "856046042971",
+    "firebase_url": "https://smarttutor-b0801.firebaseio.com",
+    "project_id": "smarttutor-b0801",
+    "storage_bucket": "smarttutor-b0801.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:856046042971:android:32cb8d30aa5bc01691a47e",
+        "android_client_info": {
+          "package_name": "com.example.smarttutor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "856046042971-859u7vlp0rk21p2kl92gs49m9217tchp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smarttutor",
+            "certificate_hash": "868399c632052a29ea4fb7c6cabe31d1464a4849"
+          }
+        },
+        {
+          "client_id": "856046042971-rnqddpb079gp1t506a25nlmcoe22kg14.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbA-JfnZDVDaNvAYbWR7OQiG-Bro2Lu5o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "856046042971-rnqddpb079gp1t506a25nlmcoe22kg14.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

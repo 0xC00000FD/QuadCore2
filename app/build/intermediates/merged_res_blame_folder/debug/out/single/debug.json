@@ -1,0 +1,222 @@
+[
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_hourglass_empty_black.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_hourglass_empty_black.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_science_black.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_science_black.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header_history.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\header_history.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_biology.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_biology.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_register.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_history.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_history.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_euro_symbol.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_euro_symbol.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_make_profile.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_make_profile.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_memory_black.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_memory_black.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_philosophy.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_philosophy.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header_compsci.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\header_compsci.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header_chemistry.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\header_chemistry.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_physics.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_physics.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_nature_people_black.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_nature_people_black.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header_biology.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\header_biology.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_school_black.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_school_black.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_memory.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_memory.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_black.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_search_black.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header_philosophy.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\header_philosophy.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_economy.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_economy.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_biotech_black.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_biotech_black.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_chemistry.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_chemistry.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_compsci.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_compsci.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_hourglass_empty.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_hourglass_empty.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_euro_symbol_black.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_euro_symbol_black.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header_maths.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\header_maths.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_extension_white_18dp.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_extension_white_18dp.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calculate.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_calculate.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_back_arrow_24dp.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_back_arrow_24dp.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_science_white_18dp.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_science_white_18dp.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_biotech_white_18dp.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_biotech_white_18dp.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_mathematics.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_mathematics.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_extension_black.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_extension_black.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_black.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_person_black.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_home.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_home.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_add_questions.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\layout\\activity_add_questions.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_nature_people.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_nature_people.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_calculate_black.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_calculate_black.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header_physics.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\header_physics.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header_economy.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\header_economy.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    }
+]

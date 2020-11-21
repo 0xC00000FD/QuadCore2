@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smarttutor">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SmartTutor">
+        <activity android:name=".Questions.AddQuestions"></activity>
+        <activity android:name=".Home" />
+        <activity android:name=".Authentification.Register" />
+        <activity android:name=".Subjects.Biology" />
+        <activity android:name=".Subjects.Chemistry" />
+        <activity android:name=".Subjects.Compsci" />
+        <activity android:name=".Subjects.Economy" />
+        <activity android:name=".Subjects.History" />
+        <activity android:name=".Subjects.Mathematics" />
+        <activity android:name=".Subjects.Philosophy" />
+        <activity android:name=".Subjects.Physics" />
+        <activity android:name=".Authentification.Login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

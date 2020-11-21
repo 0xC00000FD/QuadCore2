@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">856046042971-rnqddpb079gp1t506a25nlmcoe22kg14.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://smarttutor-b0801.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">856046042971</string>
+    <string name="google_api_key" translatable="false">AIzaSyAbA-JfnZDVDaNvAYbWR7OQiG-Bro2Lu5o</string>
+    <string name="google_app_id" translatable="false">1:856046042971:android:32cb8d30aa5bc01691a47e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAbA-JfnZDVDaNvAYbWR7OQiG-Bro2Lu5o</string>
+    <string name="google_storage_bucket" translatable="false">smarttutor-b0801.appspot.com</string>
+    <string name="project_id" translatable="false">smarttutor-b0801</string>
+</resources>

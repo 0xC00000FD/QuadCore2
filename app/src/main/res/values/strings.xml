@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">smartTutor</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account_sign_in">Don\'t have an account? Sign in</string>
+    <string name="use_the_app_without_an_account">Use the app without an account</string>
+    <string name="create_account">Create account</string>
+    <string name="back">back</string>
+    <string name="have_you_forgot_your_password_no_problem_click_here">Have you forgot your password? No problem, click here</string>
+    <string name="name">Name</string>
+    <string name="statement">Statement</string>
+    <string name="option_1">Option 1</string>
+    <string name="option_2">Option 2</string>
+    <string name="option_3">Option 3</string>
+    <string name="option_4">Option 4</string>
+    <string name="submit_question">Submit Question</string>
+</resources>
