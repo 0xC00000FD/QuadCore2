@@ -10,33 +10,35 @@
     <Button
         android:id="@+id/button7"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="104dp"
-        android:layout_height="36dp"
+        android:layout_width="105dp"
+        android:layout_height="35dp"
         android:gravity="center"
+        android:onClick="sendMessage"
         android:text="Chemistry"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/black"
+        android:textColor="#FF9E2F"
         android:textSize="12sp"
         android:textStyle="bold|normal"
-        android:onClick="sendMessage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.869"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549"
+        app:layout_constraintVertical_bias="0.55"
         tools:ignore="OnClick" />
+
+
 
     <Button
         android:id="@+id/button6"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="104dp"
-        android:layout_height="36dp"
+        android:layout_width="105dp"
+        android:layout_height="35dp"
         android:gravity="center"
         android:onClick="sendMessage"
         android:text="Economy"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/black"
+        android:textColor="#FFD84D"
         android:textSize="12sp"
         android:textStyle="bold|normal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,13 +52,13 @@
     <Button
         android:id="@+id/button"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="104dp"
-        android:layout_height="36dp"
+        android:layout_width="105dp"
+        android:layout_height="35dp"
         android:gravity="center"
         android:onClick="sendMessage"
         android:text="History"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="#000000"
+        android:textColor="#D4282A"
         android:textSize="12sp"
         android:textStyle="bold|normal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -68,14 +70,54 @@
         tools:ignore="OnClick" />
 
     <Button
+        android:id="@+id/button69"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:onClick="sendMessage"
+        android:text="View Questions"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/purple_500"
+        android:textSize="12sp"
+        android:textStyle="bold|normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        tools:ignore="OnClick" />
+
+    <Button
+        android:id="@+id/button420"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:gravity="center"
+        android:onClick="sendMessage"
+        android:text="Add Questions"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/purple_500"
+        android:textSize="12sp"
+        android:textStyle="bold|normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.793"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"
+        tools:ignore="OnClick" />
+
+    <Button
         android:id="@+id/button10"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="104dp"
-        android:layout_height="36dp"
+        android:layout_width="105dp"
+        android:layout_height="35dp"
         android:gravity="center"
         android:text="Mathematics"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/black"
+        android:textColor="#FF4D4A"
         android:textSize="12sp"
         android:textStyle="bold|normal"
         android:onClick="sendMessage"
@@ -90,12 +132,12 @@
     <Button
         android:id="@+id/button11"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="104dp"
-        android:layout_height="36dp"
+        android:layout_width="105dp"
+        android:layout_height="35dp"
         android:gravity="center"
         android:text="Philosophy"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/black"
+        android:textColor="#223F59"
         android:textSize="12sp"
         android:textStyle="bold|normal"
         android:onClick="sendMessage"
@@ -110,12 +152,12 @@
     <Button
         android:id="@+id/button9"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="104dp"
-        android:layout_height="36dp"
+        android:layout_width="105dp"
+        android:layout_height="35dp"
         android:gravity="center"
         android:text="Biology"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/black"
+        android:textColor="#6EFF52"
         android:textSize="12sp"
         android:textStyle="bold|normal"
         android:onClick="sendMessage"
@@ -135,7 +177,7 @@
         android:gravity="center"
         android:text="Physics"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/black"
+        android:textColor="#59ECFF"
         android:textSize="12sp"
         android:textStyle="bold|normal"
         android:onClick="sendMessage"
@@ -144,84 +186,83 @@
         app:layout_constraintHorizontal_bias="0.26"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.671"
+        app:layout_constraintVertical_bias="0.67"
         tools:ignore="OnClick" />
 
     <Button
         android:id="@+id/button4"
         style="@style/Widget.AppCompat.Button.Borderless.Colored"
-        android:layout_width="104dp"
-        android:layout_height="36dp"
+        android:layout_width="105dp"
+        android:layout_height="35dp"
         android:gravity="center"
         android:onClick="sendMessage"
         android:text="Informatics"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/black"
+        android:textColor="#8B52FF"
         android:textSize="12sp"
         android:textStyle="bold|normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.869"
+        app:layout_constraintHorizontal_bias="0.87"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.42"
         tools:ignore="OnClick" />
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="278dp"
-        android:layout_height="33dp"
-        android:text="Search..."
-        android:textStyle="bold|normal"
-        android:gravity="center"
-        android:textColor="@color/black"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textSize="12sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.275" />
-
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button10"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.42"
+        app:layout_constraintVertical_bias="0.422"
         app:srcCompat="@drawable/ic_calculate_black" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="166dp"
+        android:layout_width="76dp"
         android:layout_height="57dp"
         android:gravity="center"
-        android:text="smartTutor"
+        android:text="smart"
+        android:textColor="@color/purple_500"
+        android:textSize="28sp"
+        android:textStyle="bold|normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.34"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.130" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="70dp"
+        android:layout_height="57dp"
+        android:gravity="center"
+        android:text="Tutor"
         android:textColor="@color/black"
         android:textSize="28sp"
         android:textStyle="bold|normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.461"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/textView2"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.123" />
+        app:layout_constraintVertical_bias="0.13" />
 
     <ImageView
         android:id="@+id/imageView9"
         android:layout_width="35dp"
-        android:layout_height="35dp"
+        android:layout_height="57dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.137"
+        app:layout_constraintVertical_bias="0.13"
         app:srcCompat="@drawable/ic_school_black" />
 
     <Button
@@ -242,10 +283,11 @@
         app:layout_constraintVertical_bias="0.011"
         tools:ignore="OnClick" />
 
+
     <ImageView
         android:id="@+id/imageView10"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button6"
         app:layout_constraintHorizontal_bias="1.0"
@@ -256,20 +298,20 @@
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549"
+        app:layout_constraintVertical_bias="0.55"
         app:srcCompat="@drawable/ic_science_black" />
 
     <ImageView
         android:id="@+id/imageView12"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button11"
         app:layout_constraintHorizontal_bias="1.0"
@@ -280,8 +322,8 @@
 
     <ImageView
         android:id="@+id/imageView13"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button9"
         app:layout_constraintHorizontal_bias="1.0"
@@ -299,13 +341,13 @@
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.671"
+        app:layout_constraintVertical_bias="0.67"
         app:srcCompat="@drawable/ic_nature_people_black" />
 
     <ImageView
         android:id="@+id/imageView15"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button"
         app:layout_constraintHorizontal_bias="1.0"
@@ -316,7 +358,7 @@
 
     <ImageView
         android:id="@+id/imageView16"
-        android:layout_width="35dp"
+        android:layout_width="42dp"
         android:layout_height="42dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -328,8 +370,8 @@
 
     <ImageView
         android:id="@+id/imageView18"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintHorizontal_bias="1.0"
@@ -339,7 +381,7 @@
         app:srcCompat="@drawable/ic_memory_black" />
 
     <ImageView
-        android:id="@+id/imageView20"
+        android:id="@+id/ivSearchButton"
         android:layout_width="35dp"
         android:layout_height="35dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -351,15 +393,42 @@
         app:srcCompat="@drawable/ic_search_black" />
 
     <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="36dp"
-        android:layout_height="36dp"
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/button420"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.951"
+        app:srcCompat="@drawable/ic_add_comment_black_24dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button69"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.549"
-        app:srcCompat="@drawable/ic_science_white_18dp" />
+        app:layout_constraintVertical_bias="0.951"
+        app:srcCompat="@drawable/ic_insert_comment_black_24dp" />
+
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="210dp"
+        android:layout_height="38dp"
+        android:height="35dp"
+        android:ems="10"
+        android:hint="Search..."
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.277" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,6 +3,7 @@ package com.example.smarttutor.Authentification;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
@@ -10,6 +11,7 @@ import android.util.Pair;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageButton;
 import android.widget.Toast;
 
 import com.example.smarttutor.Home;
@@ -28,7 +30,7 @@ import java.util.Map;
 public class Register extends AppCompatActivity {
 
     private  Button createAccount;
-    private  EditText Email, Password;
+    private  EditText Email, Password, ConfirmPassword;
     private FirebaseAuth auth;
     private DatabaseReference database;
 
@@ -36,6 +38,16 @@ public class Register extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
+        ImageButton back = (ImageButton) findViewById(R.id.imageButton);
+
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(Register.this, Login.class);
+                Register.this.startActivity(i);
+            }
+        });
 
         /**
          * All references
@@ -45,6 +57,7 @@ public class Register extends AppCompatActivity {
 
         Email         = (EditText) findViewById(R.id.etRegisterEmail);
         Password      = (EditText) findViewById(R.id.etRegisterPassword);
+        ConfirmPassword = (EditText) findViewById(R.id.editTextTextPersonName);
 
         /**
          * Firebase initialize
@@ -62,7 +75,22 @@ public class Register extends AppCompatActivity {
             public void onClick(View view) {
                 String email    = Email   .getText().toString();
                 String password = Password.getText().toString();
-                registerAccount(email, password);
+                String confirm_password = ConfirmPassword.getText().toString();
+
+                if (!password.equals(confirm_password))
+                {
+                    Context context = getApplicationContext();
+                    CharSequence text = "Passwords don't match!";
+                    int duration = Toast.LENGTH_SHORT;
+
+                    Toast toast = Toast.makeText(context, text, duration);
+                    toast.show();
+                }
+                else
+                {
+                    registerAccount(email, password);
+                }
+
             }
         });
     }
@@ -105,5 +133,4 @@ public class Register extends AppCompatActivity {
         User user = new User(email, false, false, " ", " ", " ", mapa, mapa, mapa);
         database.child("users").child(uid).setValue(user);
     }
-
 }

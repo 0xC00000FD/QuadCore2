@@ -60,7 +60,7 @@ public class Biology extends AppCompatActivity {
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                GlobalValuesArticles.parseValues(articleList.get(i), "Biology");
+                //GlobalValuesArticles.parseValues(articleList.get(i), "Biology");
                 Intent intent = new Intent(Biology.this, DisplaySingleArticle.class);
                 Biology.this.startActivity(intent);
             }

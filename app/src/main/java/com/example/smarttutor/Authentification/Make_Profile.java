@@ -130,10 +130,10 @@ public class Make_Profile extends AppCompatActivity
                 if(teacher.isChecked()) {
                     database.child("users").child(user.getUid()).child("profileCompletition").setValue(true);
                     database.child("users").child(user.getUid()).child("school").setValue(School);
-                    database.child("users").child(user.getUid()).child("telephoneNumber").setValue(School);
+                    database.child("users").child(user.getUid()).child("telephoneNumber").setValue(telephoneNumber);
                     database.child("users").child(user.getUid()).child("type").setValue(true);
                 } else {
-                    database.child("users").child(user.getUid()).child("profileCompletition").setValue(telephoneNumber);
+                    database.child("users").child(user.getUid()).child("profileCompletition").setValue(true);
                     database.child("users").child(user.getUid()).child("schoolYear").setValue(schoolYear);
                     database.child("users").child(user.getUid()).child("school").setValue(School);
                     database.child("users").child(user.getUid()).child("type").setValue(true);

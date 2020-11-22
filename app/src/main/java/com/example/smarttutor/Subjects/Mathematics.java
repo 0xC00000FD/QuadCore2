@@ -60,7 +60,7 @@ public class Mathematics extends AppCompatActivity {
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                GlobalValuesArticles.parseValues(articleList.get(i), "Mathematics");
+                //GlobalValuesArticles.parseValues(articleList.get(i), "Mathematics");
                 Intent intent = new Intent(Mathematics.this, DisplaySingleArticle.class);
                 Mathematics.this.startActivity(intent);
             }

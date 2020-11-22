@@ -4,7 +4,7 @@ import com.example.smarttutor.Questions.GlobalValuesQuestions;
 import com.example.smarttutor.Questions.Question;
 
 public class Article{
-    int id;
+    public int id;
     public String title;
     public String long_description;
     public String short_description;

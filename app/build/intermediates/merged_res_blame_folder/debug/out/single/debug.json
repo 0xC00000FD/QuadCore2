@@ -20,6 +20,10 @@
         "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_science_black.xml"
     },
     {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_insert_comment_black_24dp.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_insert_comment_black_24dp.xml"
+    },
+    {
         "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_header_history.xml.flat",
         "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\header_history.xml"
     },
@@ -114,6 +118,14 @@
     {
         "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_search_black.xml.flat",
         "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_search_black.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_add_comment_black_24dp.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_add_comment_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_keyboard_backspace_black_18dp.xml.flat",
+        "source": "D:\\QuadCore\\app\\src\\main\\res\\drawable\\ic_keyboard_backspace_black_18dp.xml"
     },
     {
         "merged": "D:\\QuadCore\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_person_white_18dp.xml.flat",

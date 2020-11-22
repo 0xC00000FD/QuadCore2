@@ -60,7 +60,7 @@ public class Economy extends AppCompatActivity {
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                GlobalValuesArticles.parseValues(articleList.get(i), "Economy");
+                //GlobalValuesArticles.parseValues(articleList.get(i), "Economy");
                 Intent intent = new Intent(Economy.this, DisplaySingleArticle.class);
                 Economy.this.startActivity(intent);
             }

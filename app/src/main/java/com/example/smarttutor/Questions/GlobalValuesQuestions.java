@@ -20,4 +20,9 @@ public class GlobalValuesQuestions {
     public static Boolean status;
 
     public static String  id;
+
+    /**
+     * This values is not used here
+     */
+    public static Boolean okSearch;
 }

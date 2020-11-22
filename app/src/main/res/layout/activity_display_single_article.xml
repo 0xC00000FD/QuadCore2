@@ -19,14 +19,14 @@
 
     <ScrollView
         android:id="@+id/scrollView2"
-        android:layout_width="412dp"
-        android:layout_height="581dp"
+        android:layout_width="365dp"
+        android:layout_height="519dp"
         android:layout_marginTop="132dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/htextView1"
-        app:layout_constraintVertical_bias="0.944">
+        app:layout_constraintVertical_bias="0.95">
 
         <TextView
             android:id="@+id/Paragraph"
@@ -39,18 +39,17 @@
 
     <TextView
         android:id="@+id/Title"
-        android:layout_width="411dp"
-        android:layout_height="57dp"
+        android:layout_width="405dp"
+        android:layout_height="129dp"
         android:text="TextView"
         android:textAlignment="center"
-        android:textSize="36sp"
+        android:textSize="32sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/scrollView2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/htextView1"
-        app:layout_constraintVertical_bias="0.75" />
+        app:layout_constraintVertical_bias="0.873" />
 
     <ImageView
         android:id="@+id/imageView3"

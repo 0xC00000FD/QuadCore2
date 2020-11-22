@@ -116,13 +116,13 @@ public class Login extends AppCompatActivity {
                     FirebaseUser user = auth.getCurrentUser();
                     boolean emailVerified = user.isEmailVerified();
 
-                    /*
+
                     if(emailVerified == false) {
                         Toast.makeText(Login.this, "You have not verified your email",
                                 Toast.LENGTH_SHORT).show();
                         return;
                     }
-                    */
+
 
                     database.child("users").child(user.getUid()).
                             addValueEventListener(new ValueEventListener() {

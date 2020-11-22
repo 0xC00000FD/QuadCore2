@@ -1,3 +1,38 @@
+com/example/smarttutor/Authentification/Register.java
+ com.example.smarttutor.Authentification.Register
+ com.example.smarttutor.Authentification.Register$1
+ com.example.smarttutor.Authentification.Register$2
+ com.example.smarttutor.Authentification.Register$3
+ com.example.smarttutor.Authentification.Register$4
+com/example/smarttutor/Authentification/User.java
+ com.example.smarttutor.Authentification.User
+com/example/smarttutor/Questions/Question.java
+ com.example.smarttutor.Questions.Question
+com/example/smarttutor/Questions/GlobalValuesQuestions.java
+ com.example.smarttutor.Questions.GlobalValuesQuestions
+com/example/smarttutor/Search.java
+ com.example.smarttutor.Search
+com/example/smarttutor/Articles/Article.java
+ com.example.smarttutor.Articles.Article
+com/example/smarttutor/Questions/AddQuestions.java
+ com.example.smarttutor.Questions.AddQuestions
+ com.example.smarttutor.Questions.AddQuestions$1
+com/example/smarttutor/Articles/GlobalValuesArticles.java
+ com.example.smarttutor.Articles.GlobalValuesArticles
+com/example/smarttutor/Questions/DisplaySingleQuestion.java
+ com.example.smarttutor.Questions.DisplaySingleQuestion
+com/example/smarttutor/Questions/DisplayQuestions.java
+ com.example.smarttutor.Questions.DisplayQuestions
+ com.example.smarttutor.Questions.DisplayQuestions$1
+ com.example.smarttutor.Questions.DisplayQuestions$2
+ com.example.smarttutor.Questions.DisplayQuestions$3
+com/example/smarttutor/BuildConfig.java
+ com.example.smarttutor.BuildConfig
+com/example/smarttutor/Subjects/Mathematics.java
+ com.example.smarttutor.Subjects.Mathematics
+ com.example.smarttutor.Subjects.Mathematics$1
+ com.example.smarttutor.Subjects.Mathematics$2
+ com.example.smarttutor.Subjects.Mathematics$3
 com/example/smarttutor/Subjects/Chemistry.java
  com.example.smarttutor.Subjects.Chemistry
  com.example.smarttutor.Subjects.Chemistry$1
@@ -8,48 +43,9 @@ com/example/smarttutor/Subjects/Philosophy.java
  com.example.smarttutor.Subjects.Philosophy$1
  com.example.smarttutor.Subjects.Philosophy$2
  com.example.smarttutor.Subjects.Philosophy$3
-com/example/smarttutor/Questions/Question.java
- com.example.smarttutor.Questions.Question
-com/example/smarttutor/Questions/GlobalValuesQuestions.java
- com.example.smarttutor.Questions.GlobalValuesQuestions
-com/example/smarttutor/Articles/Article.java
- com.example.smarttutor.Articles.Article
-com/example/smarttutor/Subjects/Physics.java
- com.example.smarttutor.Subjects.Physics
- com.example.smarttutor.Subjects.Physics$1
- com.example.smarttutor.Subjects.Physics$2
- com.example.smarttutor.Subjects.Physics$3
-com/example/smarttutor/Authentification/Make_Profile.java
- com.example.smarttutor.Authentification.Make_Profile
- com.example.smarttutor.Authentification.Make_Profile$1
- com.example.smarttutor.Authentification.Make_Profile$2
- com.example.smarttutor.Authentification.Make_Profile$3
- com.example.smarttutor.Authentification.Make_Profile$4
- com.example.smarttutor.Authentification.Make_Profile$5
- com.example.smarttutor.Authentification.Make_Profile$6
- com.example.smarttutor.Authentification.Make_Profile$7
-com/example/smarttutor/Questions/DisplaySingleQuestion.java
- com.example.smarttutor.Questions.DisplaySingleQuestion
-com/example/smarttutor/Questions/DisplayQuestions.java
- com.example.smarttutor.Questions.DisplayQuestions
- com.example.smarttutor.Questions.DisplayQuestions$1
- com.example.smarttutor.Questions.DisplayQuestions$2
- com.example.smarttutor.Questions.DisplayQuestions$3
-com/example/smarttutor/Subjects/Mathematics.java
- com.example.smarttutor.Subjects.Mathematics
- com.example.smarttutor.Subjects.Mathematics$1
- com.example.smarttutor.Subjects.Mathematics$2
- com.example.smarttutor.Subjects.Mathematics$3
-com/example/smarttutor/Authentification/Register.java
- com.example.smarttutor.Authentification.Register
- com.example.smarttutor.Authentification.Register$1
- com.example.smarttutor.Authentification.Register$2
- com.example.smarttutor.Authentification.Register$3
-com/example/smarttutor/Questions/AddQuestions.java
- com.example.smarttutor.Questions.AddQuestions
- com.example.smarttutor.Questions.AddQuestions$1
 com/example/smarttutor/Articles/DisplaySingleArticle.java
  com.example.smarttutor.Articles.DisplaySingleArticle
+ com.example.smarttutor.Articles.DisplaySingleArticle$1
 com/example/smarttutor/Authentification/Login.java
  com.example.smarttutor.Authentification.Login
  com.example.smarttutor.Authentification.Login$1
@@ -74,15 +70,28 @@ com/example/smarttutor/Subjects/Biology.java
  com.example.smarttutor.Subjects.Biology$1
  com.example.smarttutor.Subjects.Biology$2
  com.example.smarttutor.Subjects.Biology$3
-com/example/smarttutor/BuildConfig.java
- com.example.smarttutor.BuildConfig
-com/example/smarttutor/Articles/GlobalValuesArticles.java
- com.example.smarttutor.Articles.GlobalValuesArticles
-com/example/smarttutor/Authentification/User.java
- com.example.smarttutor.Authentification.User
+com/example/smarttutor/Subjects/Physics.java
+ com.example.smarttutor.Subjects.Physics
+ com.example.smarttutor.Subjects.Physics$1
+ com.example.smarttutor.Subjects.Physics$2
+ com.example.smarttutor.Subjects.Physics$3
+com/example/smarttutor/Authentification/Make_Profile.java
+ com.example.smarttutor.Authentification.Make_Profile
+ com.example.smarttutor.Authentification.Make_Profile$1
+ com.example.smarttutor.Authentification.Make_Profile$2
+ com.example.smarttutor.Authentification.Make_Profile$3
+ com.example.smarttutor.Authentification.Make_Profile$4
+ com.example.smarttutor.Authentification.Make_Profile$5
+ com.example.smarttutor.Authentification.Make_Profile$6
+ com.example.smarttutor.Authentification.Make_Profile$7
 com/example/smarttutor/Home.java
  com.example.smarttutor.Home
  com.example.smarttutor.Home$1
+ com.example.smarttutor.Home$10
+ com.example.smarttutor.Home$11
+ com.example.smarttutor.Home$12
+ com.example.smarttutor.Home$13
+ com.example.smarttutor.Home$14
  com.example.smarttutor.Home$2
  com.example.smarttutor.Home$3
  com.example.smarttutor.Home$4
@@ -94,5 +103,5 @@ com/example/smarttutor/Home.java
 com/example/smarttutor/Subjects/Compsci.java
  com.example.smarttutor.Subjects.Compsci
  com.example.smarttutor.Subjects.Compsci$1
+ com.example.smarttutor.Subjects.Compsci$1$1
  com.example.smarttutor.Subjects.Compsci$2
- com.example.smarttutor.Subjects.Compsci$3

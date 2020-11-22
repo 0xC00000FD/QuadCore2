@@ -60,7 +60,7 @@ public class Philosophy extends AppCompatActivity {
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                GlobalValuesArticles.parseValues(articleList.get(i), "Philosophy");
+                //GlobalValuesArticles.parseValues(articleList.get(i), "Philosophy");
                 Intent intent = new Intent(Philosophy.this, DisplaySingleArticle.class);
                 Philosophy.this.startActivity(intent);
             }

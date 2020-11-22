@@ -1589,6 +1589,7 @@ drawable header_history
 drawable header_maths
 drawable header_philosophy
 drawable header_physics
+drawable ic_add_comment_black_24dp
 drawable ic_back_arrow_24dp
 drawable ic_biotech_black
 drawable ic_biotech_white_18dp
@@ -1600,6 +1601,8 @@ drawable ic_extension_black
 drawable ic_extension_white_18dp
 drawable ic_hourglass_empty
 drawable ic_hourglass_empty_black
+drawable ic_insert_comment_black_24dp
+drawable ic_keyboard_backspace_black_18dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_memory
@@ -1750,8 +1753,10 @@ id button10
 id button11
 id button2
 id button4
+id button420
 id button5
 id button6
+id button69
 id button7
 id button8
 id button9
@@ -1823,6 +1828,7 @@ id dropdown_menu
 id easeIn
 id easeInOut
 id easeOut
+id editTextTextPersonName
 id editTextTextPersonName4
 id editTextTextPersonName6
 id edit_query
@@ -1839,6 +1845,7 @@ id etProblemName
 id etProblemStatement
 id etRegisterEmail
 id etRegisterPassword
+id etSearch
 id exitUntilCollapsed
 id expand_activities_button
 id expanded_menu
@@ -1872,6 +1879,7 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
 id imageView
 id imageView10
 id imageView11
@@ -1882,16 +1890,16 @@ id imageView15
 id imageView16
 id imageView18
 id imageView2
-id imageView20
 id imageView3
 id imageView4
+id imageView5
 id imageView6
-id imageView7
 id imageView9
 id info
 id invisible
 id italic
 id item_touch_helper_previous_elevation
+id ivSearchButton
 id jumpToEnd
 id jumpToStart
 id labeled
@@ -2056,6 +2064,7 @@ id textView
 id textView2
 id textView3
 id textView4
+id textView5
 id text_input_end_icon
 id text_input_start_icon
 id textinput_counter
@@ -2275,6 +2284,7 @@ string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string app_name
 string appbar_scrolling_view_behavior
+string articles
 string back
 string bottom_sheet_behavior
 string character_counter_content_description
@@ -2372,6 +2382,7 @@ string search_menu_title
 string statement
 string status_bar_notification_info_overflow
 string submit_question
+string textview
 string use_the_app_without_an_account
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light

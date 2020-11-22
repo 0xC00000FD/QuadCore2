@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartTutor">
+        <activity android:name=".Articles.DisplaySingleArticle" />
         <activity android:name=".Questions.DisplaySingleQuestion"></activity>
         <activity android:name=".Questions.DisplayQuestions" />
         <activity android:name=".Questions.AddQuestions" />

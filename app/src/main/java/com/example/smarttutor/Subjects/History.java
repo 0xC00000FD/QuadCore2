@@ -60,7 +60,7 @@ public class History extends AppCompatActivity {
         list.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                GlobalValuesArticles.parseValues(articleList.get(i), "History");
+                //GlobalValuesArticles.parseValues(articleList.get(i), "History");
                 Intent intent = new Intent(History.this, DisplaySingleArticle.class);
                 History.this.startActivity(intent);
             }

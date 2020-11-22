@@ -3,6 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -10,10 +11,12 @@
         android:id="@+id/editTextTextPersonName6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:text="Phone number"
+        android:hint="Phone number"
         android:textColor="@color/black"
         android:textStyle="bold|normal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,6 +25,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.475" />
+
 
     <RadioButton
         android:id="@+id/radioButton4"
@@ -76,16 +80,16 @@
         android:layout_width="100dp"
         android:layout_height="42dp"
         android:gravity="center"
+        android:onClick="checkbox_clicked"
         android:text="Teacher"
         android:textColor="@color/black"
         android:textStyle="bold|normal"
-        android:onClick="checkbox_clicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.794"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.213" />
+        app:layout_constraintVertical_bias="0.215" />
 
     <TextView
         android:id="@+id/textView"
@@ -108,17 +112,17 @@
         android:id="@+id/checkBox"
         android:layout_width="100dp"
         android:layout_height="42dp"
+        android:gravity="center"
+        android:onClick="checkbox_clicked"
         android:text="Student"
         android:textColor="@color/black"
         android:textStyle="bold|normal"
-        android:gravity="center"
-        android:onClick="checkbox_clicked"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.227"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.213" />
+        app:layout_constraintVertical_bias="0.215" />
 
     <RadioButton
         android:id="@+id/radioButton"
@@ -159,7 +163,7 @@
         android:ems="10"
         android:gravity="center"
         android:inputType="textPersonName"
-        android:text="School"
+        android:hint="School"
         android:textColor="@color/black"
         android:textStyle="bold|normal"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -176,7 +180,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:text="Submit"
-        android:textColor="@color/black"
+        android:textColor="@color/purple_500"
         android:textStyle="bold|normal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
